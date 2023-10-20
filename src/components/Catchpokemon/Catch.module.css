@@ -1,0 +1,22 @@
+.layout {
+    /* background-color: white; */
+    width: 30rem;
+}
+
+.pokemonLocation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5rem;
+    width: 90%;
+    margin: 0rem auto;
+    /* border: 1px solid rgb(101, 149, 30); */
+    background-color: #4cc871;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    margin: 3rem 0 5rem 0;
+}

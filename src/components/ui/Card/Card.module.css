@@ -1,0 +1,78 @@
+.card {
+  display: flex;
+  /* background-color: aqua; */
+  background-color: rgb(239, 239, 239);
+  width: 95%;
+  height: 4.5rem;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+  background-color: aqua;
+  border-radius: 10px 0 0 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aquamarine; */
+  width: 70%;
+  padding-left: 9px;
+}
+
+.h3 {
+  margin-top: 7px;
+  margin-bottom: 2.5px;
+}
+
+.type {
+  display: flex;
+  font-size: 13px;
+  margin-left: 3.5px;
+}
+
+.genderDiv {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1%;
+  height: 1%;
+}
+
+.genderImg {
+  width: 90%;
+}
+
+.detailCard {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  height: 0.75rem;
+  border-radius: 15px;
+  margin: 4.1px auto;
+  color: rgb(0, 0, 105);
+}
+
+.removeCard {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.55rem;
+  height: 0.75rem;
+  border-radius: 15px;
+  margin: 4.1px auto;
+
+  &:hover {
+    color: rgb(185, 0, 0);
+  }
+}
